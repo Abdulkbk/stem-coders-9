@@ -11,23 +11,31 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body class="bg-primary">
+    <!-- <div>
+      <div class="container main">
+        <div class="inputs bg-dark"></div>
+      </div>
+    </div> -->
+
         <div class="container-fluid ">
-            <section class="container main" style="float: ;">
-                <section class="inputs bg-light">
+            <section class="main" >
+                <section class="inputs">
 
                     <input type="text" placeholder="Enter any city..." id="cityinput">
                     <input type="submit" value="Submit" id="add">
                  
-                    <button placeholder="submit" id="add"></button>
+                    <!-- <button placeholder="submit" id="add"></button> -->
                  
                  </section>
-                 <section class="display bg-light">
-                    <div class="wrapper">
-                        <h2 id="cityoutput"></h2>
+                 <section class="display">
+                    <div class="">
+                      <h2 id="cityoutput"></h2>
+                      <div class="figure">
+                        <p id="temp">--⁰C</p>
+                      </div>
                         <div id="icon"></div>
-                        <p id="description"></p>
-                        <p id="temp"></p>
-                        <p id="wind"></p>
+                        <p id="description">Sky Conditions: --</p>
+                        <p id="wind">Wind Speed: -- km</p>
                     </div>
                   </section>
                   
